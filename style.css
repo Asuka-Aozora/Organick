@@ -112,9 +112,8 @@ header{
 .text{
  display: flex;
  flex-direction: column;
- align-items: left;
  justify-content: left;
- padding: 10.5rem 11rem 3rem;
+ padding: 10.5rem 11rem 1rem;
 
 
 }
@@ -135,3 +134,29 @@ header{
     color: #274C5B;
 }
 
+.btn{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 11rem;
+    background-color: #EFD372;
+    border: 10px solid #EFD372 ;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    margin-bottom: rem;
+    
+}
+
+.btn a{
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    
+}
+
+.btn:hover{
+    
+}
