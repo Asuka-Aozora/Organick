@@ -49,7 +49,14 @@ header{
     left: 44.79px;
     column-gap: 10px;
     opacity: 0px;
+    transition: 0.4s ease;
     
+}
+
+.logo:hover{
+    color: #68A47F;
+    letter-spacing: 2px;
+    font-size: 40px;  
 }
 
 .logo img{
@@ -58,8 +65,9 @@ header{
     gap: 0px;
     border: 2px 0px 0px 0px;
     opacity: 0px;
-   
 }
+
+
 
 .menu{
     display: flex;
@@ -67,7 +75,6 @@ header{
     align-items: center;
     column-gap: 2rem;
     margin-left: 12rem;
-
 }
 
 .menu a{
@@ -76,6 +83,12 @@ header{
     font-weight: 700;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover{
+    color: #68A47F;
+    letter-spacing: 2px;
 }
 
 .home{
@@ -145,6 +158,8 @@ header{
     border-radius: 16px;
     padding: 1rem 2rem;
     margin-bottom: rem;
+    box-shadow: rgb(0 0 0 / 5%)0 00 8px;
+    transition: all 0.5s ease;
     
 }
 
@@ -158,5 +173,17 @@ header{
 }
 
 .btn:hover{
-    
-}
+    letter-spacing: 3px;
+    background-color: #EFD372;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #EFD372 0px 7px 29px 0px;
+  }
+
+.btn:active{
+    letter-spacing: 3px;
+    background-color: #EFD372;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #EFD372 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
