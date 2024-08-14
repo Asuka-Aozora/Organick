@@ -102,4 +102,36 @@ header{
     font-weight: 600;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    
 }
+
+.cart a img{
+    width: 3rem;
+}
+
+.text{
+ display: flex;
+ flex-direction: column;
+ align-items: left;
+ justify-content: left;
+ padding: 10.5rem 11rem 3rem;
+
+
+}
+
+.text h1{
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    color: #68A47F;
+}
+
+.text h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    color: #274C5B;
+}
+
