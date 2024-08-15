@@ -228,3 +228,68 @@ header{
       transform: translateX(0);
     }
   }
+
+.iklan{
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    background: #fff;
+    justify-content: space-between;
+    margin: 380px auto 0px auto;
+    width: 1000px;
+}
+
+.iklan-left{
+    display: absolute;
+    background-image: url(iklan/iklan1.jpg);
+    background-size: cover;
+    background-position:center;
+    width: 475px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 78px 10px 10px 40px; 
+}
+
+.iklan-left h1{
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.iklan-left h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 94px;
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+.iklan-right{
+    display: absolute;
+    background-image: url(iklan/iklan2.jpg);
+    background-size: cover;
+    background-position:center;
+    width: 475px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 78px 10px 10px 40px; 
+}
+    
+.iklan-right h1{
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #7EB693;
+}
+
+.iklan-right h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    color: #274C5B;
+}
