@@ -201,9 +201,7 @@ header{
     box-shadow: #EFD372 0px 0px 0px 0px;
     transform: translateY(10px);
     transition: 100ms;
-    
-    
-  }
+}
 
 .feature-img.anim{
     animation-delay: 4s;
@@ -292,4 +290,143 @@ header{
     font-weight: 800;
     font-size: 27px;
     color: #274C5B;
+}
+
+.about-us{
+    display: flex;
+    margin: 12rem auto 0px auto;
+    padding-left: 90px;
+    
+    
+}
+
+.img-about img{
+    width: 600px;
+
+}
+
+.text-about{
+    padding-top: 62px;
+}
+
+.text-about h1{
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #7EB693;
+}
+
+.text-about h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    color: #274C5B;
+}
+
+.text-about p{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #525C60;
+}
+
+.icon-about{
+    display: flex; 
+    margin-top: 20px; 
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.icon-about img{
+    width: 58px;
+    padding-left: 18px;
+}
+
+.icon-about h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #274C5B;
+    padding-bottom: 8px;
+}
+
+.icon-about p{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #525C60;
+}
+
+.icon-about2{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    
+}
+
+.icon-about2 img{
+    width: 58px;
+    padding-left: 18px;
+}
+
+.icon-about2 h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #274C5B;
+    padding-bottom: 8px;
+}
+
+.icon-about2 p{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #525C60;
+}
+
+.btn-about {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 3rem ;
+    background-color: #274C5B;
+    border: 10px solid #274C5B ;
+    border-radius: 16px;
+    padding: 14px 22px;
+    margin-bottom: rem;
+    box-shadow: rgb(0 0 0 / 5%)0 00 8px;
+    transition: all 0.5s ease;
+}
+
+.btn-about a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    
+}
+
+.btn-about:hover{
+    letter-spacing: 3px;
+    background-color: #274C5B;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #274C5B 0px 7px 29px 0px;
+  }
+
+.btn-about:active{
+    letter-spacing: 3px;
+    background-color: #274C5B;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #274C5B 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
 }
