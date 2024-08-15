@@ -91,11 +91,12 @@ header{
     letter-spacing: 2px;
 }
 
-.home{
+/* .home{
     background-image: url(images/Banner.jpg);
     min-height: 90vh;
     background-size: cover;
-}
+} */
+
 
 .cart{
     display: flex;
@@ -127,9 +128,14 @@ header{
  flex-direction: column;
  justify-content: left;
  padding: 10.5rem 11rem 1rem;
+ position: relative;
 
 
 }
+
+/* h1.anim{
+    animation-delay: 0.1s;
+} */
 
 .text h1{
     font-family: "Yellowtail", cursive;
@@ -137,6 +143,7 @@ header{
     font-weight: 400;
     font-size: 34px;
     color: #68A47F;
+    animation-delay: 1s;
 }
 
 .text h2{
@@ -145,6 +152,7 @@ header{
     font-weight: 800;
     font-size: 50px;
     color: #274C5B;
+    animation-delay: 2s;
 }
 
 .btn{
@@ -160,7 +168,14 @@ header{
     margin-bottom: rem;
     box-shadow: rgb(0 0 0 / 5%)0 00 8px;
     transition: all 0.5s ease;
+
     
+
+    
+}
+
+.btn.anim{
+    animation-delay: 3s;
 }
 
 .btn a{
@@ -186,4 +201,30 @@ header{
     box-shadow: #EFD372 0px 0px 0px 0px;
     transform: translateY(10px);
     transition: 100ms;
+    
+    
+  }
+
+.feature-img.anim{
+    animation-delay: 4s;
+}
+
+.feature-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateX(100px);
+    animation: slideRight 1s linear forwards;
+  }
+  
+  @keyframes slideRight {
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
