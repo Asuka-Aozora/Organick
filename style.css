@@ -431,3 +431,131 @@ header{
     transition: 100ms;
 }
 
+
+.title-shop h1{
+    text-align: center;
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #7EB693;
+    padding-top: 100px;
+    padding-bottom: 6px;
+}
+
+.title-shop h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    color: #274C5B;
+    padding-bottom: 15px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+    
+    
+}
+
+.item{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    transition: all 0.3s ease;
+    /* background-color: #afe8ff; */
+}
+
+.item:hover{
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.164), -10px -10px 10px white;
+    
+    cursor: pointer;
+}
+
+.item-list{
+    max-width: max-content;
+    padding: 2px 6px; 
+    margin: 24px;
+    text-align: center;
+    border: 2px solid #274C5B;
+    background-color: #274C5B;
+    border-radius: 8px;
+}
+
+.item-list h3{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.item-content{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.item-content img{
+    width: 100%;
+}
+.item-content h3{
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #274C5B;
+    padding-left: 1.2rem;
+}
+.item-content hr{
+    text-align: center;
+    border: 1px solid ;
+    color: #DEDDDD;
+    min-width: 88%;
+    margin: 10px auto 0px auto ;
+}
+
+.item-price{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.item-price h4{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 8px;
+    
+    
+}
+.item-price #line{
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-left: 18px;
+    color: #B8B8B8;
+}
+.item-price .star{
+    margin-top: 3px;
+    position: absolute;
+    right: 0;
+    padding-right: 2.8vh;
+    color: #FFA858;
+    font-size: 2vh;
+}
