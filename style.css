@@ -836,3 +836,36 @@ header{
     justify-content: center;
     gap: 0.1rem;
 }
+
+.eco {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.eco-img img{
+    width: 38rem;
+}
+
+.eco-content {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: 4.5rem;
+    border-radius: 24px 0 0 24px;
+    padding-left: 56px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #7EB693;
+    width: 50rem;
+    height: 28rem;
+    gap: 2rem;
+}
+
+.eco-text-head{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
