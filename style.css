@@ -1129,6 +1129,7 @@ header{
     background-color: #fff;
     border-radius: 16px;
     margin-left: 23.8px;
+    box-shadow: #0000001c 0px 5px 8px 0px;
 }
 
 .cube-text{
@@ -1292,6 +1293,7 @@ header{
     background-color: #fff;
     border-radius: 16px;
     margin-left: 23.8px;
+    box-shadow: #0000001c 0px 5px 8px 0px;
 }
 
 .cube-text2{
@@ -1386,7 +1388,7 @@ header{
 }
 
 
-.cube-bottom{
+/* .cube-bottom{
     display: flex;
     margin-top: 50px;
     position: absolute;
@@ -1400,4 +1402,103 @@ header{
     background-color: #fff;
     border-radius: 16px;
     margin-left: 23.8px;
+} */
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.subscribe-cube{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(subscribe/orange.jpg);
+    background-size: cover;
+    background-position: center;
+    gap: 15.5rem;
+    padding-right: 3px;
+    width: 60rem;
+    height: 14rem;
+    border-radius: 20px;
+}
+
+.subscribe-text-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-text-left h2{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35.5px;
+    color: #fff;
+}
+
+.subscribe-text-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 14px;
+    height: 3.5rem;
+    gap: 5px;
+}
+
+.email input{
+    font-style: italic;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 14px;
+    padding: 19px 52px 19px 18px;
+    box-shadow: #0000001c 0px 5px 8px 0px;
+}
+
+.btn-subs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #274C5B;
+    border-radius: 14px;
+    width: 10.3rem;
+    height: 3.5rem;
+    box-shadow: rgb(0 0 0 / 5%)0 00 8px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-subs a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.btn-subs:hover{
+    transform: translateY(-5px);
+    background-color: #274C5B;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #000000 0px 2px 8px 0px;
+  }
+
+.btn-subs:active{
+    background-color: #274C5B;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #000000 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 100ms;
 }
