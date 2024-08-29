@@ -1502,3 +1502,190 @@ header{
     transform: translateY(5px);
     transition: 100ms;
 }
+
+.footer-akhir-bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #a8cc45; */
+    width: 100%;
+    height: 35rem;
+    margin-bottom: 10px;
+}
+
+.footer-akhir-dalam{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 30rem;
+    margin-right: 4rem;
+    /* border: 2px solid #460be9; */
+}
+
+.footer-akhir-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 25rem;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 0 32px;
+    border-right: 2px solid #e7e7e7;
+    /* border-right: 2px solid #180909; */
+    height: 20rem;
+}
+
+.data:last-child{
+    border-right: none;
+}
+
+.footer-akhir-kiri{
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-dalam-head{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.contact-dalam-head h1{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #274C5B;
+}
+
+.contact-dalam-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact-dalam-text h3{
+    font-family: 'open sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #525C60;
+    line-height: 20px;
+}
+
+.contact-dalam-text p{
+    font-family: 'open sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #525C60;
+    line-height: 20px;
+}
+
+.footer-akhir-tengah{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.footer-akhir-tengah-dalam{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-akhir-tengah-dalam-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-akhir-tengah-dalam-logo img{
+    width: 32px;
+}
+
+.footer-akhir-tengah-dalam-logo h1{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #274C5B;
+}
+
+.footer-akhir-tengah-dalam-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.footer-akhir-tengah-dalam-text p{
+    font-family: 'open sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #525C60;
+    line-height: 24px;
+}
+
+.footer-akhir-tengah-dalam-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding-top: 40px;
+}
+
+.footer-akhir-tengah-dalam-icon a{
+    color: #274C5B;
+    font-size: 20px;
+}
+
+.footer-akhir-kanan{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.footer-akhir-kanan-dalam{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-akhir-kanan-dalam h1{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #274C5B;
+    padding-bottom: 16px;
+}
+
+.footer-akhir-kanan-dalam p{
+    font-family: 'open sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #525C60;
+    line-height: 24px;
+}
+
